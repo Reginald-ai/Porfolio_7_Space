@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <Nuxt />
+    <Nuxt id="scrolling-techniques-7" />
     <Footer />
   </div>
 </template>

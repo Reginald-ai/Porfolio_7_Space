@@ -18,7 +18,7 @@
           <NuxtLink to="/Planets" class="nav-link">Planets</NuxtLink>
         </li>
         <li class="nav-item">
-          <NuxtLink to="#" class="nav-link">Mission</NuxtLink>
+          <NuxtLink to="/Mission" class="nav-link">Mission</NuxtLink>
         </li>
         <li class="nav-item">
           <NuxtLink to="#" class="nav-link">FAQ</NuxtLink>

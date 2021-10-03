@@ -4,24 +4,24 @@
       <v-img
         class="white--text align-end"
         height="200px"
-        :src="require(`@/assets/img/planets/cards/${planet.img}`)"
+        :src="require(`@/assets/img/mission/f-cards/${projectId.img}`)"
       >
-        <v-card-title>{{ planet.title }}</v-card-title>
       </v-img>
+      <v-card-title>{{ projectId.title }}</v-card-title>
       <v-divider class="mt-2"></v-divider>
       <v-card-subtitle class="pb-3"
-        >Number planet {{ planet.num }}
+        >Year: {{ projectId.year }}
       </v-card-subtitle>
 
       <v-card-text class="text--primary">
-        <p>{{ planet.text1.slice(0, 160) }}. . .</p>
+        <p>{{ projectId.text.slice(0, 160) }}. . .</p>
       </v-card-text>
 
       <v-card-actions>
         <v-btn color="orange" text> Share </v-btn>
 
         <NuxtLink
-          :to="`/planetsId/${planet.id}`"
+          :to="`/visionsId/${projectId.id}`"
           class="btn-yellow"
           color="orange"
           text
@@ -35,12 +35,9 @@
 
 <script>
 export default {
-  props: ["planet"],
+  props: ["projectId"],
 };
 </script>
 
-<style lang="scss">
-.v-image__image {
-  background-size: contain;
-}
+<style>
 </style>
