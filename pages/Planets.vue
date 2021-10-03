@@ -97,58 +97,12 @@ export default {
     SvgFloating,
   },
   data() {
-    return {
-      planets: [
-        {
-          title: "Mercury ",
-          img: "mercury.png",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur aliquam assumenda.",
-          num: 1,
-        },
-        {
-          title: "Venus ",
-          img: "venus.png",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur aliquam assumenda.",
-          num: 2,
-        },
-        {
-          title: "Earth ",
-          img: "earth.png",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur aliquam assumenda.",
-          num: 3,
-        },
-        {
-          title: "Mars ",
-          img: "mars.png",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur aliquam assumenda.",
-          num: 4,
-        },
-        {
-          title: "Jupiter ",
-          img: "jupiter.png",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur aliquam assumenda.",
-          num: 5,
-        },
-        {
-          title: "Saturn ",
-          img: "saturn.png",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur aliquam assumenda.",
-          num: 6,
-        },
-        {
-          title: "Uranus ",
-          img: "uranus.png",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur aliquam assumenda.",
-          num: 7,
-        },
-        {
-          title: "Neptune ",
-          img: "neptune.png",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur aliquam assumenda.",
-          num: 8,
-        },
-      ],
-    };
+    return {};
+  },
+  computed: {
+    planets() {
+      return this.$store.state.planets;
+    },
   },
 };
 </script>
