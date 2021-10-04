@@ -3,7 +3,7 @@
     <div class="faq">
       <v-container>
         <v-row>
-          <v-col>
+          <v-col cols="12" sm="12" md="6">
             <h1>Thank you Messages</h1>
             <p>
               I will forever be grateful to you for your help. Thank you! Some
@@ -31,7 +31,7 @@
         <h1>FAQs | NASA</h1>
         <hr class="my-5" />
         <v-row>
-          <v-col sm="6">
+          <v-col cols="12" sm="12" md="6">
             <v-expansion-panels class="mb-6">
               <v-expansion-panel
                 v-for="(item, i) in items.slice(0, 8)"
@@ -46,7 +46,7 @@
               </v-expansion-panel>
             </v-expansion-panels>
           </v-col>
-          <v-col>
+          <v-col cols="12" sm="12" md="6">
             <v-expansion-panels class="mb-6">
               <v-expansion-panel
                 v-for="(item, i) in items.slice(8, 15)"
@@ -70,7 +70,13 @@
         <hr class="my-5" />
 
         <v-row>
-          <v-col v-for="(credit, i) in credits" :key="i">
+          <v-col
+            cols="12"
+            sm="12"
+            md="6"
+            v-for="(credit, i) in credits"
+            :key="i"
+          >
             <v-card elevation="2" outlined shaped>
               <v-card-title>
                 {{ credit.title }}

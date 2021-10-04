@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <Nuxt id="scrolling-techniques-7" />
+    <Nuxt id="scrolling-techniques-7" class="overflow-y-auto" />
     <Footer />
   </div>
 </template>
