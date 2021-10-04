@@ -3,8 +3,15 @@
     <div class="planets-in">
       <v-container>
         <v-row>
-          <v-col cols="12">
+          <v-col
+            data-aos="fade-down"
+            data-aos-delay="250"
+            data-aos-duration="500"
+            cols="12"
+          >
             <SvgStars class="w-100" />
+          </v-col>
+          <v-col data-aos="fade-up">
             <div class="py-5">
               <h1>What is Universe Short answer?</h1>
               <p>
@@ -41,6 +48,9 @@
         <v-divider class="my-5"></v-divider>
         <v-row>
           <Cards-Planets
+            data-aos="flip-right"
+            data-aos-delay="250"
+            data-aos-duration="500"
             v-for="(planet, i) in planets"
             :key="i"
             :planet="planet"
@@ -52,7 +62,14 @@
       <v-container>
         <v-divider></v-divider>
         <v-row class="align-center">
-          <v-col cols="12" md="6" sm="12">
+          <v-col
+            data-aos="fade-right"
+            data-aos-delay="250"
+            data-aos-duration="500"
+            cols="12"
+            md="6"
+            sm="12"
+          >
             <h1>Before Dawn</h1>
             <p>
               Expect a miracle. Have faith and hope. Because night is darkest
@@ -68,7 +85,7 @@
               the night sky.
             </p>
           </v-col>
-          <v-col cols="12" md="6" sm="12">
+          <v-col data-aos="fade-left" cols="12" md="6" sm="12">
             <SvgDawn class="w-100" />
           </v-col>
         </v-row>
@@ -77,10 +94,17 @@
     <div class="lunch">
       <v-container>
         <v-row class="align-center">
-          <v-col cols="12" sm="12" md="6">
+          <v-col
+            data-aos="fade-right"
+            data-aos-delay="250"
+            data-aos-duration="500"
+            cols="12"
+            sm="12"
+            md="6"
+          >
             <SvgFloating class="w-100" />
           </v-col>
-          <v-col cols="12" sm="12" md="6">
+          <v-col data-aos="fade-down" cols="12" sm="12" md="6">
             <h1>Hot-air balloon</h1>
             <p>
               A hot-air balloon is a lighter-than-air aircraft consisting of a

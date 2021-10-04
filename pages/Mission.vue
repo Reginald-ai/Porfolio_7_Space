@@ -3,10 +3,17 @@
     <div class="tech">
       <v-container>
         <v-row class="align-center">
-          <v-col cols="12" sm="12" md="6">
+          <v-col
+            data-aos="fade-up"
+            data-aos-delay="250"
+            data-aos-duration="500"
+            cols="12"
+            sm="12"
+            md="6"
+          >
             <SvgLunch class="w-100" />
           </v-col>
-          <v-col cols="12" sm="12" md="6">
+          <v-col data-aos="fade-down" cols="12" sm="12" md="6">
             <h1>Teaching Philosophy Statement</h1>
             <p>
               Like many teachers around the nation, I recently went from
@@ -30,6 +37,8 @@
         <v-divider class="my-5"></v-divider>
         <v-row>
           <LazyCards-Mission
+            data-aos="flip-right"
+            data-aos-duration="800"
             v-for="(projectId, i) in visions"
             :key="i"
             :projectId="projectId"
@@ -41,7 +50,7 @@
     <div class="working">
       <v-container>
         <v-row class="align-center">
-          <v-col sm="12" md="6">
+          <v-col data-aos="fade-left" sm="12" md="6">
             <h1>Hard Working Till Late Night</h1>
             <p>
               Who here has worked a late night? How about an overnighter? I know
@@ -57,7 +66,7 @@
               optio explicabo dicta?
             </p>
           </v-col>
-          <v-col sm="12" md="6">
+          <v-col data-aos="fade" data-aos-duration="800" sm="12" md="6">
             <SvgWorking class="w-100" />
           </v-col>
         </v-row>
@@ -66,10 +75,10 @@
     <div class="C-working pt-16">
       <v-container>
         <v-row class="align-center">
-          <v-col sm="12" md="6">
+          <v-col data-aos="fade" data-aos-duration="800" sm="12" md="6">
             <SvgCoWorking class="w-100" />
           </v-col>
-          <v-col sm="12" md="6">
+          <v-col data-aos="fade-left" sm="12" md="6">
             <h1>Information and Communication Technology</h1>
             <p>
               Communication technology is the transfer of messages (information)
