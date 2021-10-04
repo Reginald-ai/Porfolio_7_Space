@@ -70,6 +70,10 @@ export default {};
   }
   .text-white {
     text-decoration: none;
+    transition: all 0.5s ease;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   .navbar-nav {
     display: flex;
