@@ -3,7 +3,13 @@
     <div class="section-index">
       <v-container>
         <v-row>
-          <v-col class="text-white" cols="12" sm="12" md="6">
+          <v-col
+            data-aos="fade-right"
+            class="text-white"
+            cols="12"
+            sm="12"
+            md="6"
+          >
             <h2 class="pb-5">Explore the Universe</h2>
             <p class="pb-5">
               What is the Universe like? Our answer to that question has
@@ -20,7 +26,13 @@
             </p>
           </v-col>
 
-          <v-col cols="12" sm="12" md="6">
+          <v-col
+            data-aos="fade-down"
+            data-aos-delay="250"
+            cols="12"
+            sm="12"
+            md="6"
+          >
             <AstroSvg class="w-100" />
           </v-col>
         </v-row>
@@ -33,10 +45,10 @@
         </h1>
         <hr class="my-5" />
         <v-row class="align-center">
-          <v-col cols="12" md="6">
+          <v-col data-aos="fade-right" data-aos-delay="500" cols="12" md="6">
             <SvgWorld class="w-100 h-500" />
           </v-col>
-          <v-col cols="12" md="6">
+          <v-col data-aos="fade-left" cols="12" md="6">
             <h1>International Cooperation</h1>
             <br />
             <p>
@@ -65,7 +77,7 @@
     <div class="rocket-space">
       <v-container>
         <v-row class="align-center">
-          <v-col cols="12" md="6">
+          <v-col data-aos="fade-left" cols="12" md="6">
             <h1>Depth Perception in Space</h1>
             <br />
             <p>
@@ -85,7 +97,7 @@
               gravitational microlensing.
             </p>
           </v-col>
-          <v-col cols="12" md="6">
+          <v-col data-aos="fade-right" cols="12" md="6">
             <SvgRocket class="w-100 h-500 mt-5" />
           </v-col>
         </v-row>
