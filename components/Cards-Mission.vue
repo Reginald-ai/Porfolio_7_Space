@@ -14,7 +14,7 @@
       </v-card-subtitle>
 
       <v-card-text class="text--primary">
-        <p>{{ projectId.text.slice(0, 160) }}. . .</p>
+        <p>{{ projectId.text.slice(0, 130) }} . . .</p>
       </v-card-text>
 
       <v-card-actions>

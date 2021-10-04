@@ -91,9 +91,9 @@ const state = () => ({
   ],
   visions: [
     {
-      id: "1",
+      id: 1,
       img: "space-station-svgrepo-com.png",
-      title: "International Space Station",
+      title: "Space Station",
       text:
         "The International Space Station is a large spacecraft in orbit around Earth. It serves as a home where crews of astronauts and cosmonauts live. The space station is also a unique science laboratory. Several nations worked together to build and use the space station. The space station is made of parts that were assembled in space by astronauts. It orbits Earth at an average altitude of approximately 250 miles. It travels at 17,500 mph. This means it orbits Earth every 90 minutes. NASA is using the space station to learn more about living and working in space. These lessons will make it possible to send humans farther into space than ever before.",
       year: "November 1998",
@@ -106,7 +106,7 @@ const state = () => ({
       }
     },
     {
-      id: "2",
+      id: 2,
       img: "space-ship-svgrepo-com.png",
       title: "New Horizons",
       text:
@@ -121,7 +121,7 @@ const state = () => ({
       }
     },
     {
-      id: "3",
+      id: 3,
       img: "space-shuttle-svgrepo-com.png",
       title: "Space Shuttle",
       text:
@@ -136,7 +136,7 @@ const state = () => ({
       }
     },
     {
-      id: "4",
+      id: 4,
       img: "alien-space-svgrepo-com.png",
       title: "The search for alien life",
       text:
@@ -151,7 +151,7 @@ const state = () => ({
       }
     },
     {
-      id: "5",
+      id: 5,
       img: "planet-space-svgrepo-com.png",
       title: "What is a Planet?",
       text:
@@ -166,7 +166,7 @@ const state = () => ({
       }
     },
     {
-      id: "6",
+      id: 6,
       img: "space-capsule-svgrepo-com (1).png",
       title: "Space capsule",
       text:
@@ -181,7 +181,7 @@ const state = () => ({
       }
     },
     {
-      id: "7",
+      id: 7,
       img: "sun-space-svgrepo-com 1.png",
       title: "The Sun",
       text:
@@ -196,7 +196,7 @@ const state = () => ({
       }
     },
     {
-      id: "8",
+      id: 8,
       img: "planet-svgrepo-com 1.png",
       title: "The Moon Landing",
       text:

@@ -21,7 +21,7 @@
           <NuxtLink to="/Mission" class="nav-link">Mission</NuxtLink>
         </li>
         <li class="nav-item">
-          <NuxtLink to="#" class="nav-link">FAQ</NuxtLink>
+          <NuxtLink to="/Faq" class="nav-link">FAQ</NuxtLink>
         </li>
       </ul>
     </v-container>
