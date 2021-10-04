@@ -7,7 +7,7 @@
     class="headers"
   >
     <v-container class="d-flex">
-      <v-app-bar-nav-icon class="menu-bar"></v-app-bar-nav-icon>
+      <!-- <v-app-bar-nav-icon class="menu-bar"></v-app-bar-nav-icon> -->
 
       <NuxtLink to="/" class="text-white">SpaceY</NuxtLink>
 
@@ -60,6 +60,8 @@ export default {};
   position: fixed !important;
   background: transparent !important;
   color: #fff !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04) !important;
+  background: rgb(28, 36, 49) !important;
   .menu-bar {
     display: block;
     @include breakpoint-up(sm) {
@@ -68,6 +70,10 @@ export default {};
   }
   .text-white {
     text-decoration: none;
+    transition: all 0.5s ease;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   .navbar-nav {
     display: flex;
@@ -77,6 +83,10 @@ export default {};
       color: #fff;
       padding: 10px;
       text-decoration: none;
+      transition: all 0.5s ease;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }

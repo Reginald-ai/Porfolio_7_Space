@@ -4,16 +4,19 @@
       <v-container>
         <v-row>
           <v-col class="text-white" cols="12" sm="12" md="6">
-            <h2 class="pb-5">Explore My Universe</h2>
+            <h2 class="pb-5">Explore the Universe</h2>
             <p class="pb-5">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Corporis, expedita ad. Quidem voluptatum nobis officiis, provident
+              What is the Universe like? Our answer to that question has
+              changed—sometimes suddenly and dramatically—as our tools for
+              studying the Universe have changed. Explore the Universe shows how
+              our ideas about the Universe evolved as we developed new
+              astronomical instruments.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel
-              magni harum quibusdam autem saepe, quisquam nostrum incidunt
-              dolores illum, eligendi maiores? Dignissimos quia, provident
-              tempora veritatis beatae quos molestiae doloremque.
+              It presents the Universe as discerned by the naked eye, then shows
+              how the telescope, photography, spectroscopy, and digital
+              technology revolutionized our view. The largest section describes
+              what astronomers today think about the nature of the Universe.
             </p>
           </v-col>
 
@@ -28,29 +31,32 @@
         <h1 class="py-5" style="text-align: center">
           Let's Collaborate first before exploring space
         </h1>
-        <hr />
+        <hr class="my-5" />
         <v-row class="align-center">
           <v-col cols="12" md="6">
-            <SvgWorld class="w-100" />
+            <SvgWorld class="w-100 h-500" />
           </v-col>
           <v-col cols="12" md="6">
-            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+            <h1>International Cooperation</h1>
             <br />
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Doloribus neque officia praesentium quae dolores, quia dolorem
-              modi dolore quisquam quis a numquam accusantium repudiandae
-              eveniet corporis sapiente rerum dolorum mollitia facere? Accusamus
-              maiores quibusdam dicta at asperiores fugiat maxime vel laudantium
-              nulla repellat debitis omnis, commodi velit incidunt a saepe
-              ducimus cum et optio magnam? A neque maxime ipsa hic?
+              The International Space Station (ISS) Program’s greatest
+              accomplishment is as much a human achievement as it is a
+              technological one—how best to plan, coordinate, and monitor the
+              varied activities of the Program’s many organizations. An
+              international partnership of space agencies provides and operates
+              the elements of the ISS. The principals are the space agencies of
+              the United States, Russia, Europe, Japan, and Canada. The ISS has
+              been the most politically complex space exploration program ever
+              undertaken.
             </p>
             <br />
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
-              dolores earum maiores quod! Illo inventore ducimus neque ipsum id
-              suscipit doloremque laboriosam necessitatibus quasi incidunt
-              architecto at numquam, obcaecati dolor.
+              The International Space Station Program brings together
+              international flight crews, multiple launch vehicles, globally
+              distributed launch, operations, training, engineering, and
+              development facilities; communications networks, and the
+              international scientific research community.
             </p>
           </v-col>
         </v-row>
@@ -60,27 +66,27 @@
       <v-container>
         <v-row class="align-center">
           <v-col cols="12" md="6">
-            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+            <h1>Depth Perception in Space</h1>
             <br />
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Doloribus neque officia praesentium quae dolores, quia dolorem
-              modi dolore quisquam quis a numquam accusantium repudiandae
-              eveniet corporis sapiente rerum dolorum mollitia facere? Accusamus
-              maiores quibusdam dicta at asperiores fugiat maxime vel laudantium
-              nulla repellat debitis omnis, commodi velit incidunt a saepe
-              ducimus cum et optio magnam? A neque maxime ipsa hic?
+              This artist's concept shows how astronomers use the unique orbit
+              of NASA's Spitzer Space Telescope and a depth-perceiving trick
+              called parallax to determine the distance of dark planets, black
+              holes, and failed stars which lurk invisibly among us. These
+              objects do not produce light, and are too faint to detect from
+              Earth.
             </p>
             <br />
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
-              dolores earum maiores quod! Illo inventore ducimus neque ipsum id
-              suscipit doloremque laboriosam necessitatibus quasi incidunt
-              architecto at numquam, obcaecati dolor.
+              However, astronomers can deduce their presence from the way they
+              affect the light from background objects. When such a dark body
+              passes in front of a bright star, its gravity warps the path of
+              the star's light and causes it to brighten this process is called
+              gravitational microlensing.
             </p>
           </v-col>
           <v-col cols="12" md="6">
-            <SvgRocket class="w-100" />
+            <SvgRocket class="w-100 h-500 mt-5" />
           </v-col>
         </v-row>
       </v-container>
