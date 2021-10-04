@@ -6,16 +6,30 @@
           <v-col cols="12">
             <SvgStars class="w-100" />
             <div class="py-5">
-              <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+              <h1>What is Universe Short answer?</h1>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam vitae doloribus magnam, labore natus suscipit beatae
-                sequi consequuntur voluptatibus praesentium sunt corporis at
-                possimus ratione nisi similique optio qui perferendis esse iure
-                expedita laborum! Amet corporis dolorum culpa vel deleniti iure
-                laboriosam, voluptatem rem porro hic vero libero! Officiis
-                aliquam pariatur nostrum ullam repudiandae reprehenderit atque
-                quis maiores blanditiis? Alias.
+                The Universe is everything we can touch, feel, sense, measure or
+                detect. It includes living things, planets, stars, galaxies,
+                dust clouds, light, and even time. Before the birth of the
+                Universe, time, space and matter did not exist. The Universe
+                contains billions of galaxies, each containing millions or
+                billions of stars. The space between the stars and galaxies is
+                largely empty. However, even places far from stars and planets
+                contain scattered particles of dust or a few hydrogen atoms per
+                cubic centimeter. Space is also filled with radiation (e.g.
+                light and heat), magnetic fields and high energy particles (e.g.
+                cosmic rays).
+              </p>
+              <p>
+                The Universe is incredibly huge. It would take a modern jet
+                fighter more than a million years to reach the nearest star to
+                the Sun. Travelling at the speed of light (300,000 km per
+                second), it would take 100,000 years to cross our Milky Way
+                galaxy alone. No one knows the exact size of the Universe,
+                because we cannot see the edge – if there is one. All we do know
+                is that the visible Universe is at least 93 billion light years
+                across. (A light year is the distance light travels in one year
+                – about 9 trillion km.)
               </p>
             </div>
           </v-col>
@@ -38,22 +52,23 @@
       <v-container>
         <v-divider></v-divider>
         <v-row class="align-center">
-          <v-col cols="12" md="6" sm="6">
-            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+          <v-col cols="12" md="6" sm="12">
+            <h1>Before Dawn</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-              aliquam animi aspernatur, tenetur laudantium quas debitis repellat
-              quo magnam? Repudiandae quaerat, ullam cum vitae itaque natus
-              nihil aliquam magni veritatis?
+              Expect a miracle. Have faith and hope. Because night is darkest
+              just before dawn..and you or I do not hold the brush that colors
+              the night and the day.
             </p>
-            <br />
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Assumenda eaque ullam hic dolore? Provident, adipisci culpa eos
-              optio explicabo dicta?
+              Alignments between these two planets are rather rare, occurring
+              once every 20 years or so, but this conjunction is exceptionally
+              rare because of how close the planets will appear to one another,
+              youd have to go all the way back to just before dawn on March 4,
+              1226, to see a closer alignment between these objects visible in
+              the night sky.
             </p>
           </v-col>
-          <v-col cols="12" md="6" sm="6">
+          <v-col cols="12" md="6" sm="12">
             <SvgDawn class="w-100" />
           </v-col>
         </v-row>
@@ -62,22 +77,32 @@
     <div class="lunch">
       <v-container>
         <v-row class="align-center">
-          <v-col cols="12" sm="6" md="6">
+          <v-col cols="12" sm="12" md="6">
             <SvgFloating class="w-100" />
           </v-col>
-          <v-col cols="12" sm="6" md="6">
-            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+          <v-col cols="12" sm="12" md="6">
+            <h1>Hot-air balloon</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-              aliquam animi aspernatur, tenetur laudantium quas debitis repellat
-              quo magnam? Repudiandae quaerat, ullam cum vitae itaque natus
-              nihil aliquam magni veritatis?
+              A hot-air balloon is a lighter-than-air aircraft consisting of a
+              bag, called an envelope, which contains heated air. Suspended
+              beneath is a gondola or wicker basket (in some long-distance or
+              high-altitude balloons, a capsule), which carries passengers and a
+              source of heat, in most cases an open flame caused by burning
+              liquid propane. The heated air inside the envelope makes it
+              buoyant, since it has a lower density than the colder air outside
+              the envelope.
             </p>
-            <br />
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Assumenda eaque ullam hic dolore? Provident, adipisci culpa eos
-              optio explicabo dicta?
+              As with all aircraft, hot-air balloons cannot fly beyond the
+              atmosphere. The envelope does not have to be sealed at the bottom,
+              since the air inside the envelope is at about the same pressure as
+              the surrounding air. In modern sport balloons the envelope is
+              generally made from nylon fabric, and the inlet of the balloon
+              (closest to the burner flame) is made from a fire-resistant
+              material such as Nomex. Modern balloons have been made in many
+              shapes, such as rocket ships and the shapes of various commercial
+              products, though the traditional shape is used for most
+              non-commercial and many commercial applications.
             </p>
           </v-col>
         </v-row>

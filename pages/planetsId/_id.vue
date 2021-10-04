@@ -17,10 +17,9 @@
             <p>{{ planets.text1 }}</p>
             <p>{{ planets.text2 }}</p>
             <p>{{ planets.text3 }}</p>
-            <br />
             <hr />
             <v-btn color="dark" @click="back">G Backward</v-btn>
-            <v-btn color="dark" v-show="show" @click="forward">G Forward</v-btn>
+            <v-btn color="dark" @click="forward">G Forward</v-btn>
           </v-col>
         </v-row>
       </v-container>
@@ -31,9 +30,7 @@
 <script>
 export default {
   data() {
-    return {
-      show: true,
-    };
+    return {};
   },
   computed: {
     planets() {
@@ -42,7 +39,18 @@ export default {
   },
   methods: {
     back() {
-      this.$router.back();
+      const ids = this.planets.id;
+      const no = -1;
+      const idNs = ids + no;
+      console.log(idNs);
+
+      if (idNs >= 1) {
+        this.$router.push({ path: `/planetsId/${idNs}` });
+        return;
+      } else if (idNs !== 1) {
+        this.$router.push({ path: "/planets" });
+        return;
+      }
     },
     forward() {
       const id = this.planets.id;
@@ -50,11 +58,11 @@ export default {
       const idN = id + no;
       console.log(idN);
       if (idN <= 8) {
-        this.show = false;
         this.$router.push({ path: `/planetsId/${idN}` });
         return;
       } else if (idN !== 8) {
-        return (this.show = false);
+        this.$router.push({ path: "/planets" });
+        return;
       }
     },
   },
