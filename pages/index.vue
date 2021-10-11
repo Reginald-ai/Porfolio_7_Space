@@ -141,6 +141,7 @@ export default {
   }
   .rocket-space {
     background: #1c2431;
+    padding-top: 120px;
   }
 }
 </style>
